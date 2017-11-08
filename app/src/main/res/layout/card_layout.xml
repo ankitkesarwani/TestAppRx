@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="3dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:alpha="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight=".5"/>
+
+            <TextView
+                android:id="@+id/card_start"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="00:00:00"
+                android:layout_weight=".5"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:alpha="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight=".5"/>
+
+            <TextView
+                android:id="@+id/card_end"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="00:00:00"
+                android:layout_weight=".5"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:alpha="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Start Save:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight=".5"/>
+
+            <TextView
+                android:id="@+id/card_start_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="00:00:00"
+                android:layout_weight=".5"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:alpha="1">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="End Save:"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:layout_weight=".5"/>
+
+            <TextView
+                android:id="@+id/card_end_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:hint="00:00:00"
+                android:layout_weight=".5"
+                android:gravity="right"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

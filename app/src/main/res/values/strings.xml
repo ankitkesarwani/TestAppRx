@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestAppRx</string>
+
+    <string name="downloadStarted">Download Started</string>
+    <string name="downloadCompleted">Download Completed</string>
+    <string name="downloadFailed">Download Failed</string>
+    <string name="downloadAgain">Download Again</string>
+
+</resources>
